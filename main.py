@@ -10,6 +10,13 @@ def mainInterface():
     print("/n/n        [1] - open file")
     print("            [2] - create file")
     print("            [3] - exit")
+
+    select = input("/n/nselect :")
+
+    if select == "1":
+        createFile()
+    if elif select == "2":
+        openFile()
     
 
 def createFile():
