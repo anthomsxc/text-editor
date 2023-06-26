@@ -1,5 +1,6 @@
 import os
 import msvcrt
+import time
 from colorama import Back, Style
 
 def mainInterface():
@@ -17,6 +18,10 @@ def mainInterface():
         createFile()
     if elif select == "2":
         openFile()
+    if elif select == "3":
+        print("aurevoir")
+        time.sleep(1)
+        exit(0)
     
 
 def createFile():
@@ -61,3 +66,7 @@ def createFile():
 
         elif key == 27:  # Escape key
             break
+
+
+if __name__ == "__main__":
+    mainInterface()
