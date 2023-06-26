@@ -16,12 +16,14 @@ def mainInterface():
 
     if select == "1":
         createFile()
-    if elif select == "2":
+    elif select == "2":
         openFile()
-    if elif select == "3":
+    elif select == "3":
         print("aurevoir")
         time.sleep(1)
         exit(0)
+    else:
+        print("non reconnu")
     
 
 def createFile():
