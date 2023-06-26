@@ -2,8 +2,12 @@ import os
 import msvcrt
 from colorama import Back, Style
 
+def mainInterface():
+
+    print("                                    text editor by @mxz")
+
 def createFile():
-    dir_path = os.path.dirname(os.path.realpath('__file__'))
+   
     os.system("cls")
 
     file = input("Nom du fichier à créer : ")
