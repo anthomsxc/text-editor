@@ -6,6 +6,12 @@ def mainInterface():
 
     print("                                    text editor by @mxz")
 
+    print("/n        options :")
+    print("/n/n        [1] - open file")
+    print("            [2] - create file")
+    print("            [3] - exit")
+    
+
 def createFile():
    
     os.system("cls")
