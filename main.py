@@ -61,14 +61,15 @@ def createFile():
         elif key == 19:
             with open(file, 'w') as file_to_write:
                 file_to_write.write('\n'.join(lignes))
+
+            mainInterface()
+            break
+
+        elif key == 27: 
             print("Fichier en cours de sauvegarde !")
             time.sleep(0.5)
             print("aurevoir...")
             time.sleep(1)
-            mainInterface()
-            break
-
-        elif key == 27:  # Escape key
             break
 
 
