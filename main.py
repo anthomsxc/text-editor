@@ -5,14 +5,16 @@ from colorama import Back, Style
 
 def mainInterface():
 
+    os.system('cls')
+
     print("                                    text editor by @mxz")
 
-    print("/n        options :")
-    print("/n/n        [1] - open file")
+    print("\n\n       options :")
+    print("\n        [1] - open file")
     print("            [2] - create file")
     print("            [3] - exit")
 
-    select = input("/n/nselect :")
+    select = input("\n\n\nselect :")
 
     if select == "1":
         createFile()
@@ -76,6 +78,9 @@ def createFile():
             print("aurevoir...")
             break
 
+
+def openFile():
+    pass
 
 if __name__ == "__main__":
     mainInterface()
